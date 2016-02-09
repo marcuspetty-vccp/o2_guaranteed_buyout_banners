@@ -1,0 +1,200 @@
+@import 'fonts/fonts.css';
+@import 'reset.css';
+
+body {
+	text-align: center;
+	font-family: 'frutiger_rg';
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: greyscale;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+}
+
+b, strong {
+	font-family: 'frutiger_bd';
+}
+
+.bg {
+	background: url('../img/background.png') repeat-x; /* Old browsers */
+
+}
+
+.banner {
+	position: relative;
+	display: none;
+	width: 160px;
+	height: 600px;
+	overflow: hidden;
+}
+
+.section {
+	position: absolute;
+	display: none;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.text-container {
+	position: absolute;
+	left: 50%;
+	top: 195px;
+	width: 100%;
+}
+
+.text {
+	position: absolute;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+h5 {
+	font-size: 26px;
+	line-height: 30px;
+}
+
+h6 {
+	font-size: 22px;
+	line-height: 26px;
+	padding-bottom: 4px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.logo {
+	position: absolute;
+	top: 25px;
+	left: 50%;
+}
+.logo img {
+	width: 60px;
+	height: auto;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.device {
+    position: absolute;
+	left: 50%;
+    top: 140px;
+}
+.device img {
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.exit {
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.cta-container {
+	position: absolute;
+    bottom: 40px;
+    left: 50%;
+    height: 56px;
+    width: 100%;
+}
+.cta {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+
+	/* Tiny drop shadow */
+	-webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,d9d9d9+100 */
+	background: #fefefe; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	/* background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOWQ5ZDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); */
+	background: -moz-linear-gradient(top, #fefefe 0%, #d9d9d9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #d9d9d9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fefefe 0%,#d9d9d9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fefefe 0%,#d9d9d9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fefefe 0%,#d9d9d9 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fefefe 0%,#d9d9d9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d9d9d9', GradientType=0 ); /* IE6-8 */
+
+}
+.cta-text {
+    display: inline-block;
+	color: #0a0f39;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    background-image: url("../img/btn_arrow.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+	letter-spacing: -0.2px;
+}
+.terms {
+	position: absolute;
+	left: 0px;
+	 bottom: 0px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.terms p {
+    font-size: 10px;
+}
+
+.bubbles_container {
+	position: absolute;
+	display: none;
+}
+.bubbles_container img {
+	position: absolute;
+}
+.bubbles {
+	position: absolute;
+}
+.bubble {
+	position: absolute;
+}
+
+.tag{
+	position: absolute;
+	left: 0px;
+	bottom: 284px;
+}

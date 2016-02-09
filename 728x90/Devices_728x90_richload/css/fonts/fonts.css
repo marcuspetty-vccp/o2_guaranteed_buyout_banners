@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'frutiger_rg';
+    src: url('../fonts/frutivccp55rm-webfont.eot');
+    src: url('../fonts/frutivccp55rm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frutivccp55rm-webfont.woff') format('woff'),
+         url('../fonts/frutivccp55rm-webfont.ttf') format('truetype'),
+         url('../fonts/frutivccp55rm-webfont.svg#frutiger_vccp_55_rm_Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'frutiger_bd';
+    src: url('../fonts/frutivccp65bd-webfont.eot');
+    src: url('../fonts/frutivccp65bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frutivccp65bd-webfont.woff') format('woff'),
+         url('../fonts/frutivccp65bd-webfont.ttf') format('truetype'),
+         url('../fonts/frutivccp65bd-webfont.svg#frutiger_vccp_65_bd_Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

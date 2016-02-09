@@ -1,0 +1,174 @@
+@import 'fonts/fonts.css';
+@import 'reset.css';
+
+body {
+	font-family: 'frutiger_rg';
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: greyscale;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+}
+
+b, strong {
+	font-family: 'frutiger_bd';
+}
+
+.bg {
+	background: url('../img/background.png') repeat-x;
+  }
+
+  .banner {
+  	position: relative;
+  	display: none;
+  	width: 320px;
+  	height: 50px;
+  	overflow: hidden;
+  }
+
+  .section {
+  	position: absolute;
+  	display: none;
+  	left: 0px;
+  	top: 0px;
+  	width: 100%;
+  	height: 100%;
+  }
+
+  .text-container {
+  	position: absolute;
+  	left: 70%;
+  	top: 50%;
+  	width: 100%;
+    margin: 0 0 0 -50%;
+
+  }
+
+  .text {
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	-webkit-transform: translateY(-50%);
+  	-moz-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	-o-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  }
+
+  h5 {
+  	font-size: 18px;
+  	line-height: 26px;
+  }
+
+  h6 {
+  	font-size: 18px;
+  	line-height: 24px;
+  	padding-bottom: 2px;
+  }
+
+  p {
+  	font-size: 14px;
+  	line-height: 18px;
+  }
+
+  .logo {
+  	position: absolute;
+    top: 10px;
+    right: 11px;
+  }
+  .logo img {
+  	width: 30px;
+  	height: auto;
+  }
+
+  .device {
+  	position: absolute;
+  	left: 56px;
+  	top: 10px;
+  }
+
+  .exit {
+  	position: absolute;
+  	z-index: 999;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	cursor: pointer;
+  }
+
+  .cta-container {
+  	position: absolute;
+  	bottom: -12px;
+  	left: 6px;
+  	height: 56px;
+  	width: 100%;
+  }
+  .cta {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	padding-left: 8px;
+  	padding-right: 8px;
+
+  	/* Tiny drop shadow */
+  	-webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+  	-moz-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+  	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+
+  	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,d9d9d9+100 */
+  	background: #fefefe; /* Old browsers */
+  	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  	/* background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOWQ5ZDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); */
+  	background: -moz-linear-gradient(top, #fefefe 0%, #d9d9d9 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #d9d9d9)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top, #fefefe 0%,#d9d9d9 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top, #fefefe 0%,#d9d9d9 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(top, #fefefe 0%,#d9d9d9 100%); /* IE10+ */
+  	background: linear-gradient(to bottom, #fefefe 0%,#d9d9d9 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d9d9d9', GradientType=0 ); /* IE6-8 */
+
+  }
+  .cta-text {
+  	display: inline-block;
+  	color: #0a0f39;
+  	padding-right: 16px;
+  	padding-bottom: 8px;
+  	padding-top: 8px;
+  	font-size: 13px;
+  	background-image: url("../img/btn_arrow.png");
+  	background-repeat: no-repeat;
+  	background-position: right center;
+  	letter-spacing: -0.2px;
+  }
+  .terms {
+  	position: absolute;
+   left: 2px;
+   bottom: -16px;
+ }
+ .terms p {
+   font-size: 10px;
+ }
+
+ .bubbles_container {
+   position: absolute;
+   display: none;
+ }
+ .bubbles_container img {
+   position: absolute;
+ }
+ .bubbles {
+   position: absolute;
+ }
+ .bubble {
+   position: absolute;
+ }
+
