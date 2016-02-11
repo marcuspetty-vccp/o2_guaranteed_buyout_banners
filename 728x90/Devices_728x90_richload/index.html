@@ -11,77 +11,81 @@
 	<link type="text/css" href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
-	<div id="bannerContainer" class="banner bg">
+<div id="bannerContainer" class="banner bg">
 
-		<div id="o2_bubbles" class="bubbles_container">
-			<div class="bubbles"></div>
-			<div class="bubble">
-				<img src="img/bubble.png" class="bubble_graphic" />	
-			</div>
-			<img src="img/mini_bubble.png" class="mini_bubble" />
+	<div id="o2_bubbles" class="bubbles_container">
+		<div class="bubbles"></div>
+		<div class="bubble">
+			<img src="img/bubble.png" class="bubble_graphic" />	
 		</div>
+		<img src="img/mini_bubble.png" class="mini_bubble" />
+	</div>
 
+	<div id="section1" class="section">
+		<div class="tag">
+			<img src="img/tag.png"/>
+			<img class="gifSrc" src="">
+		</div>
+	</div>
+
+	<div id="section2" class="section">
+		<div class="text-container">
+			<div id="section2Text" class="text"></div>
+		</div>
+	</div>
+
+	<div id="section3" class="section">
+		<div class="text-container">
+			<div id="section3Text" class="text"></div>
+		</div>
+	</div>
+
+	<div id="ctaContainer" class="cta-container">
+		<div id="ctaButton" class="cta">
+			<span id="ctaText" class="cta-text">&nbsp;</span>
+		</div>
+	</div>
+
+	<div id="section4">
 		<div class="logo">
 			<img src="img/o2_logo.png" />
 		</div>
-
-
-		<div id="section1" class="section">
-			<div class="tag">
-				<img src="img/tag.png"/>
-			</div>
+		<div class="terms">
+			<p id="termsText"></p>
 		</div>
-
-		<div id="section2" class="section">
-			<div class="text-container">
-				<div id="section2Text" class="text"></div>
-			</div>
-		</div>
-
-		<div id="section2" class="section">
-			<div class="text-container">
-				<div id="section2Text" class="text"></div>
-			</div>
-		</div>
-
-		<div id="section3" class="section">
-			<div class="text-container">
-				<div id="section3Text" class="text"></div>
-			</div>
-		</div>
-
-		<div id="ctaContainer" class="cta-container">
-			<div id="ctaButton" class="cta">
-				<span id="ctaText" class="cta-text">&nbsp;</span>
-			</div>
-			<div class="terms">
-				<p id="termsText"></p>
-			</div>
-		</div>
-		
-
-		<div id="o2Tag">
-			<div class="tag">
-				<img src="img/tag.png"/>
-			</div>
-		</div>
-
-
-		<div id="clickTag" class="exit"></div>
-
 	</div>
 
-	For testing only
+	<div id="tagSlide">
+		<div class="tag">
+			<img src="img/tag.png"/>
+			<img class="gifSrc" src="">
+		</div>
+	</div>
+
+
+	
+	<div id="clickTag" class="exit"></div>
+
+</div>
+
+<!-- 	For testing only
 	<script src="http://cdn.flashtalking.com/frameworks/js/api/2/9/html5API.js"></script>
 	<script type="text/javascript">
 		var myFT = new FT;
 	</script>
-	For testing only end
+	For testing only end -->
 
 	<script type="text/javascript" src="js/TweenMax.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript">
 		window.onload = function() {
+
+			var elements = document.getElementsByClassName("gifSrc");
+			var i = 0
+			for (i; i < elements.length ; i++){
+				elements[i].src = "img/text.gif"
+			}
+			
 			var container = FT.query("#container"),
 			section2Text = FT.query("#section2Text"),
 			section3Text = FT.query("#section3Text"),

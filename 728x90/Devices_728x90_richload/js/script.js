@@ -23,7 +23,8 @@ var Advert = {
 
 		_this.timeline.set("#bannerContainer", {display: "block"});
 		_this.timeline.set("#section1", {display: "block"});
-		_this.timeline.to("#section1", 0.25, {opacity: 0}, "+=3");
+		_this.timeline.from("#section1Text", 0.25, {opacity: 0});
+		_this.timeline.to("#section1", 0.5, {left:"-300px",rotation:45, ease: Quint.easeIn}, "+=4.2");
 		_this.timeline.set("#section1", {display: "none"});
 		_this.timeline.set("#section2", {display: "block"});
 		_this.timeline.from("#section2", 0.25, {opacity: 0});
@@ -33,10 +34,12 @@ var Advert = {
 		_this.timeline.from("#section3", 0.25, {opacity: 0});
 		_this.timeline.to("#section3", 0.25, {opacity: 0}, "+=3");
 		_this.timeline.set("#section3", {display: "none"});
-		_this.timeline.set("#o2Tag", {display: "block"});
+		_this.timeline.set("#section4", {display: "block"});
+		_this.timeline.from("#section4", 0.25, {opacity: 0});
+		_this.timeline.set("#tagSlide", {y:10});
+		_this.timeline.from("#tagSlide", 0.9, {bottom:"-300px",rotation:40, ease: Quint.easeOut}, "-=0.5");
 		_this.timeline.set("#ctaContainer", {display: "block"});
-		_this.timeline.from("#o2Tag", 0.25, {opacity: 0});
-		_this.timeline.from("#ctaContainer", 0.25, {opacity: 0});
+		_this.timeline.from("#ctaContainer", 0.25, {opacity: 0},"+=0.1");
 
 		_this.timeline.add(function() {
 			_this.bubbleBounce(_this);

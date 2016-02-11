@@ -47,7 +47,7 @@ b, strong {
 .text-container {
 	position: absolute;
 	left: 50%;
-	top: 200px;
+	top: 244px;
 	width: 100%;
 }
 
@@ -112,7 +112,7 @@ p {
 
 .cta-container {
 	position: absolute;
-    bottom: 190px;
+    bottom: 84px;
     left: 50%;
     height: 60px;
     width: 100%;
@@ -153,8 +153,8 @@ p {
     display: inline-block;
 	color: #0a0f39;
     padding-right: 16px;
-    padding-bottom: 11px;
-    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     font-size: 15px;
     background-image: url("../img/btn_arrow.png");
     background-repeat: no-repeat;
@@ -192,5 +192,21 @@ p {
 .tag{
 	position: absolute;
 	left: 0px;
-	bottom:300px;
+	bottom:205px;
+	}
+
+#tagSlide{
+	position: absolute;
+	left: 0px;
+	bottom:0px;
+}
+
+.gifSrc{
+	position: absolute;	
+	left:86px;
+	top:63px;
+	-ms-transform: rotate(-10deg); /* IE 9 */
+	 -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+	 transform: rotate(-10deg);
+
 }

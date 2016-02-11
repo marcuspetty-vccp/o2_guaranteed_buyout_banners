@@ -34,32 +34,22 @@ b, strong {
   }
 
   .section {
-  	position: absolute;
-  	display: none;
-  	left: 0px;
-  	top: 0px;
-  	width: 100%;
-  	height: 100%;
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
   }
 
   .text-container {
-  	position: absolute;
-  	left: 70%;
-  	top: 50%;
-  	width: 100%;
-    margin: 0 0 0 -50%;
-
+    width: 320px;
+    height:50px;
+    margin: 15px auto;
   }
 
-  .text {
-  	position: absolute;
-  	left: 0px;
-  	top: 0px;
-  	-webkit-transform: translateY(-50%);
-  	-moz-transform: translateY(-50%);
-  	-ms-transform: translateY(-50%);
-  	-o-transform: translateY(-50%);
-  	transform: translateY(-50%);
+  .text { 
+    text-align: center;
   }
 
   h5 {
@@ -68,8 +58,8 @@ b, strong {
   }
 
   h6 {
-  	font-size: 18px;
-  	line-height: 24px;
+  	font-size: 13px;
+  	line-height: 14px;
   	padding-bottom: 2px;
   }
 
@@ -105,11 +95,11 @@ b, strong {
   }
 
   .cta-container {
-  	position: absolute;
-  	bottom: -12px;
-  	left: 6px;
-  	height: 56px;
-  	width: 100%;
+    position: absolute;
+    top: 20px;
+    right: -170px;
+    height: 56px;
+    width: 100%;
   }
   .cta {
   	position: absolute;
@@ -141,9 +131,9 @@ b, strong {
   	display: inline-block;
   	color: #0a0f39;
   	padding-right: 16px;
-  	padding-bottom: 8px;
-  	padding-top: 8px;
-  	font-size: 13px;
+  	padding-bottom: 4px;
+  	padding-top: 4px;
+  	font-size: 10px;
   	background-image: url("../img/btn_arrow.png");
   	background-repeat: no-repeat;
   	background-position: right center;
@@ -171,4 +161,22 @@ b, strong {
  .bubble {
    position: absolute;
  }
+
+ #tagSlide{
+  position: absolute;
+  left: -18px;
+  bottom:-2px;
+ }
+
+
+ .gifSrc{
+ position: absolute;
+     left: 66px;
+     top: 10px;
+     -ms-transform: rotate(1deg);
+     -webkit-transform: rotate(1deg);
+     transform: rotate(1deg);
+
+ }
+
 

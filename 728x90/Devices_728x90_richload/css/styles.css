@@ -35,32 +35,22 @@ b, strong {
   }
 
   .section {
-  	position: absolute;
-  	display: none;
-  	left: -10px;
-  	top: 0px;
-  	width: 100%;
-  	height: 100%;
+    position: absolute;
+    display: none;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
   }
 
   .text-container {
-  	position: absolute;
-  	left: 50%;
-  	top: 50%;
-    margin: 0px 0 0 -244px;
     width: 728px;
-
+    height:90px;
+    margin: 35px auto;
   }
 
-  .text {
-  	position: absolute;
-  	left: 0px;
-  	top: 0px;
-  	-webkit-transform: translateY(-50%);
-  	-moz-transform: translateY(-50%);
-  	-ms-transform: translateY(-50%);
-  	-o-transform: translateY(-50%);
-  	transform: translateY(-50%);
+  .text { 
+    text-align: center;
   }
 
   h5 {
@@ -152,8 +142,8 @@ b, strong {
   }
   .terms {
   	position: absolute;
-  	left: 484px;
-  	bottom: 10px;
+  	right: 190px;
+  	bottom: 2px;
 
   }
   .terms p {
@@ -173,4 +163,22 @@ b, strong {
   .bubble {
   	position: absolute;
   }
+
+ #tagSlide{
+  position: absolute;
+  left: 0px;
+  bottom:0px;
+ }
+
+ .gifSrc{
+ position: absolute;
+     left: 101px;
+     top: 20px;
+     -ms-transform: rotate(1deg);
+     -webkit-transform: rotate(1deg);
+     transform: rotate(1deg);
+
+ }
+
+
 

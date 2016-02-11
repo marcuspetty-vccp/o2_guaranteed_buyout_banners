@@ -9,12 +9,11 @@ FT.manifest({
 		"src": "Guaranteed_Buyout_Rich_320x50"
 	}],
 	"instantAds":[
-		{"name": "section1Text", "type": "text", "default": "<h5><strong>ON THE HOUSE<strong></h5>"},
-		{"name": "section2Text", "type": "text", "default": "<h6>The latest phone<h6>"},
-		{"name": "section2bText", "type": "text", "default": "<h6>after 12 months on us</h6>"},
-		{"name": "section3Text", "type": "text", "default": "<h6>With love from ø</h6>"},
+
+		{"name": "section2Text", "type": "text", "default": "<h6>The next upgrade is on the house after 12 momths </h6>"},
+		{"name": "section3Text", "type": "text", "default": "<h6><h6>when you buy the latest<br/>phone on our 30GB tariff</h6></h6>"},
 		{"name": "ctaText", "type": "text", "default": "Find out more"},
-		{"name": "termsText", "type": "text", "default": "Terms apply"},
-		{"name": "sectionBtn", "type": "text", "default": "Grab yours now"}
+		{"name": "termsText", "type": "text", "default": "Terms apply"}
+
 	]
 });

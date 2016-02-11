@@ -47,7 +47,7 @@ b, strong {
 .text-container {
 	position: absolute;
 	left: 50%;
-	top: 195px;
+	top: 230px;
 	width: 100%;
 }
 
@@ -66,7 +66,7 @@ h5 {
 }
 
 h6 {
-	font-size: 22px;
+	font-size: 17px;
 	line-height: 26px;
 	padding-bottom: 4px;
 }
@@ -157,18 +157,19 @@ p {
     display: inline-block;
 	color: #0a0f39;
     padding-right: 16px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     font-size: 14px;
     background-image: url("../img/btn_arrow.png");
     background-repeat: no-repeat;
     background-position: right center;
 	letter-spacing: -0.2px;
+	font-weight: 1;
 }
 .terms {
 	position: absolute;
 	left: 0px;
-	 bottom: 0px;
+	 bottom: -33px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -176,7 +177,7 @@ p {
 	transform: translateX(-50%);
 }
 .terms p {
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .bubbles_container {
@@ -196,5 +197,22 @@ p {
 .tag{
 	position: absolute;
 	left: 0px;
-	bottom: 284px;
+	bottom: 267px;
+}
+
+
+#tagSlide{
+	position: absolute;
+	left: 0px;
+	bottom:0px;
+}
+
+.gifSrc{
+	position: absolute;
+	left: 51px;
+	top: 30px;
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+
 }
