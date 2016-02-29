@@ -114,6 +114,8 @@ p {
 	cursor: pointer;
 }
 
+
+
 .cta-container {
 	position: absolute;
     bottom: 40px;
@@ -168,8 +170,9 @@ p {
 }
 .terms {
 	position: absolute;
-	left: 0px;
-	 bottom: -33px;
+	left: 36px;
+	bottom: 4px;
+	width: 60px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -215,4 +218,9 @@ p {
 	-webkit-transform: rotate(-10deg);
 	transform: rotate(-10deg);
 
+}
+
+#clickTag{
+	background-color:red;
+	opacity:0;
 }

@@ -1,3 +1,4 @@
+
 @import 'fonts/fonts.css';
 @import 'reset.css';
 
@@ -98,6 +99,12 @@ p {
 	cursor: pointer;
 }
 
+.exit a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 .cta-container {
 	position: absolute;
 	top: 150px;
@@ -188,3 +195,7 @@ p {
 
 }
 
+#clickTag{
+	background-color:red;
+	opacity:0;
+}

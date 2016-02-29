@@ -10,8 +10,8 @@ FT.manifest({
 	}],
 	"instantAds":[
 
-		{"name": "section2Text", "type": "text", "default": "<h6>The next upgrade is on the house after 12 momths </h6>"},
-		{"name": "section3Text", "type": "text", "default": "<h6><h6>when you buy the latest<br/>phone on our 30GB tariff</h6></h6>"},
+		{"name": "section2Text", "type": "text", "default": "<h6>Your next upgrade is on us after 12 months</h6>"},
+		{"name": "section3Text", "type": "text", "default": "<h6><h6>When you buy the latest<br/>phone on our 30GB tariff</h6></h6>"},
 		{"name": "ctaText", "type": "text", "default": "Find out more"},
 		{"name": "termsText", "type": "text", "default": "Terms apply"}
 

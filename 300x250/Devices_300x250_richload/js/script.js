@@ -23,8 +23,8 @@ var Advert = {
 		_this.timeline.set("#bannerContainer", {display: "block"});
 		_this.timeline.set("#section1", {display: "block", y:40});
 		_this.timeline.from("#section1Text", 0.25, {opacity: 0});
-		_this.timeline.to("#section1", 0.5, {left:"-255px",rotation:30, ease: Quint.easeIn}, "+=4.2");
-		_this.timeline.set("#section2", {display: "block"});
+		_this.timeline.to("#section1", 0.5, {left:"-255px",rotation:30, ease: Quint.easeIn}, "+=2.3");
+		_this.timeline.set("#section2", {display: "block", y:-18});
 		_this.timeline.from("#section2", 0.25, {opacity: 0});
 		_this.timeline.to("#section2", 0.25, {opacity: 0}, "+=3");
 		_this.timeline.set("#section2", {display: "none"});

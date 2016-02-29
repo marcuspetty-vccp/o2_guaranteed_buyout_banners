@@ -22,7 +22,7 @@ var Advert = {
 
 		_this.timeline.set("#bannerContainer", {display: "block"});
 		_this.timeline.set("#section1", {display: "block", x:-20});
-		_this.timeline.to("#section1", 0.5, {left:"-300px",rotation:45, ease: Quint.easeIn}, "+=4.2");
+		_this.timeline.to("#section1", 0.5, {left:"-300px",rotation:45, ease: Quint.easeIn}, "+=2.5");
 		_this.timeline.set("#section1", {display: "none"});
 		_this.timeline.set("#section2", {display: "block"});
 		_this.timeline.from("#section2", 0.25, {opacity: 0});
